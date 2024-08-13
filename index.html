@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibição de Dados das APIs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body>
+    <h1>Dados das APIs</h1>
+    <button onclick="fetchData()">Buscar Dados</button>
+
+    <div id="results">
+      <div id="post-result">
+        <h2>Post</h2>
+        <h3 id="post-title"></h3>
+        <p id="post-body"></p>
+      </div>
+
+      <div id="pokemon-result">
+        <h2>Informações do Pokémon</h2>
+        <p id="pokemon-name"></p>
+        <p id="pokemon-height"></p>
+        <p id="pokemon-weight"></p>
+        <img id="pokemon-sprite" src="" alt="Sprite do Pokémon">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
